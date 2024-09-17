@@ -1,1 +1,1 @@
-web: python json_to_word:app
+web: python app:app
