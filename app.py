@@ -33,5 +33,9 @@ def upload_json():
     return send_file(output_docx_path, as_attachment=True, attachment_filename='Relatorio.docx', mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
 
 
+@app.route('/hello', methods=['GET'])
+def hello_world():
+    return 'Hello, World!'
+
 if __name__ == '__main__':
     app.run(debug=True)
