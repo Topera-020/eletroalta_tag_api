@@ -1,9 +1,7 @@
-import pandas as pd
 import xml.etree.ElementTree as ET
 import shutil
 import zipfile
 import os
-import json
 import base64
 from docx import Document
 from io import BytesIO
@@ -219,15 +217,3 @@ def filtrar_imagens(json_data):
                 print(key)
                 lista_de_arrays.append(value)
     return lista_de_arrays
-
-
-
-# Exemplo de uso:
-#json_file_path = 'example.json'
-#docx_template_path = 'tamplate.docx'
-#output_docx_path = 'Resultado\\Resultado.docx'
-
-#new_document_xml = convert_json_to_word_xml(json_file_path)
-#replace_document_xml(docx_template_path, new_document_xml, output_docx_path)
-
-#inserir_imagens_no_word(output_docx_path, output_docx_path, json_file_path)
