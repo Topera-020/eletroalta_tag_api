@@ -1,0 +1,238 @@
+[
+    {
+        "ID":1,
+        "Subcategorias":null
+    },
+    {
+        "ID":2,
+        "Subcategorias":"ACESSIBILIDADE"
+    },
+    {
+        "ID":3,
+        "Subcategorias":"ACESSIBILIDADE À SUBESTAÇÃO"
+    },
+    {
+        "ID":4,
+        "Subcategorias":"ACESSIBILIDADE AOS COMPONENTES"
+    },
+    {
+        "ID":5,
+        "Subcategorias":"AMBULATÓRIO MÉDICO"
+    },
+    {
+        "ID":6,
+        "Subcategorias":"ART"
+    },
+    {
+        "ID":7,
+        "Subcategorias":"ATERRAMENTO"
+    },
+    {
+        "ID":8,
+        "Subcategorias":"ATERRAMENTO DO INVÓLUCRO"
+    },
+    {
+        "ID":9,
+        "Subcategorias":"COMBATE A INCÊNDIO"
+    },
+    {
+        "ID":10,
+        "Subcategorias":"COMPONENTES DA PORTA"
+    },
+    {
+        "ID":11,
+        "Subcategorias":"CONDIÇÕES DA ESTRUTURA DA SUBESTAÇÃO"
+    },
+    {
+        "ID":12,
+        "Subcategorias":"CONDIÇÕES DO INVÓLUCRO"
+    },
+    {
+        "ID":13,
+        "Subcategorias":"CONFORMIDADE DOS COMPONENTES"
+    },
+    {
+        "ID":14,
+        "Subcategorias":"CONTROLE DE TERCEIROS"
+    },
+    {
+        "ID":15,
+        "Subcategorias":"DISPOSITIVO DE MONITORAMENTO"
+    },
+    {
+        "ID":16,
+        "Subcategorias":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+    },
+    {
+        "ID":17,
+        "Subcategorias":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+    },
+    {
+        "ID":18,
+        "Subcategorias":"DISPOSITIVO DIFERENCIAL-RESIDUAL (DR)"
+    },
+    {
+        "ID":19,
+        "Subcategorias":"DISPOSITIVOS DE PROTEÇÃO"
+    },
+    {
+        "ID":20,
+        "Subcategorias":"DISPOSITIVOS DE PROTEÇÃO PARA OS CIRCUITOS"
+    },
+    {
+        "ID":21,
+        "Subcategorias":"DISTANCIAS MÍNIMAS ENTRE FASE E NEUTRO (TABELA 21 – NBR 14039)"
+    },
+    {
+        "ID":22,
+        "Subcategorias":"DOCUMENTAÇÃO PROFISSIONAIS AUTORIZADOS (RH)"
+    },
+    {
+        "ID":23,
+        "Subcategorias":"ESTADO GERAL DOS COMPONENTES"
+    },
+    {
+        "ID":24,
+        "Subcategorias":"EXECUÇÃO DAS CONEXÕES"
+    },
+    {
+        "ID":25,
+        "Subcategorias":"EXECUÇÃO DAS CONEXÕES"
+    },
+    {
+        "ID":26,
+        "Subcategorias":"GRAU DE PROTEÇÃO"
+    },
+    {
+        "ID":27,
+        "Subcategorias":"IDENTIFICAÇÃO DE COMPONENTES"
+    },
+    {
+        "ID":28,
+        "Subcategorias":"IDENTIFICAÇÃO DE CONDUTORES"
+    },
+    {
+        "ID":29,
+        "Subcategorias":"IDENTIFICAÇÃO DE CONDUTORES (NEUTRO PROTEÇÃO)"
+    },
+    {
+        "ID":30,
+        "Subcategorias":"IDENTIFICAÇÃO DOS COMPONENTES"
+    },
+    {
+        "ID":31,
+        "Subcategorias":"IDENTIFICAÇÃO E SINALIZAÇÃO"
+    },
+    {
+        "ID":32,
+        "Subcategorias":"IDENTIFICAÇÃO E SINALIZAÇÃO DA SUBESTAÇÃO"
+    },
+    {
+        "ID":33,
+        "Subcategorias":"ILUMINAÇÃO"
+    },
+    {
+        "ID":34,
+        "Subcategorias":"ILUMINAÇÃO"
+    },
+    {
+        "ID":35,
+        "Subcategorias":"LINHAS ELÉTRICAS"
+    },
+    {
+        "ID":36,
+        "Subcategorias":"LISTA DE MATERIAIS"
+    },
+    {
+        "ID":37,
+        "Subcategorias":"LISTA DE POTÊNCIAS"
+    },
+    {
+        "ID":38,
+        "Subcategorias":"MANUTENÇÃO"
+    },
+    {
+        "ID":39,
+        "Subcategorias":"MEDIDAS DE CONTROLE"
+    },
+    {
+        "ID":40,
+        "Subcategorias":"MEMORIAL"
+    },
+    {
+        "ID":41,
+        "Subcategorias":"OBJETOS ARMAZENADOS"
+    },
+    {
+        "ID":42,
+        "Subcategorias":"OBJETOS ARMAZENADOS"
+    },
+    {
+        "ID":43,
+        "Subcategorias":"PARTES ENERGIZADAS EXPOSTAS"
+    },
+    {
+        "ID":44,
+        "Subcategorias":"POSSIBILIDADE DE BLOQUEIO"
+    },
+    {
+        "ID":45,
+        "Subcategorias":"POSSIBILIDADE DE BLOQUEIO"
+    },
+    {
+        "ID":46,
+        "Subcategorias":"PRESENÇA DE ESQUEMA E AVISOS (MANOBRA SOBRE CARGA, ETC.)"
+    },
+    {
+        "ID":47,
+        "Subcategorias":"PROTEÇÃO CONTRA CONTATO DIRETO"
+    },
+    {
+        "ID":48,
+        "Subcategorias":"PROTEÇÃO CONTRA CONTATO INDIRETO"
+    },
+    {
+        "ID":49,
+        "Subcategorias":"PROTEÇÃO CONTRA INCÊNDIO"
+    },
+    {
+        "ID":50,
+        "Subcategorias":"PROTEÇÃO CONTRA INCÊNDIO"
+    },
+    {
+        "ID":51,
+        "Subcategorias":"SEGURANÇA"
+    },
+    {
+        "ID":52,
+        "Subcategorias":"SELEÇÃO DE COMPONENTES E INSTALAÇÃO EM FACE DE INFL. EXTERNAS"
+    },
+    {
+        "ID":53,
+        "Subcategorias":"SELEÇÃO E INSTALAÇÃO DOS CONDUTORES"
+    },
+    {
+        "ID":54,
+        "Subcategorias":"SOENG"
+    },
+    {
+        "ID":55,
+        "Subcategorias":"SPDA E ATERRAMENTO"
+    },
+    {
+        "ID":56,
+        "Subcategorias":"SUBSISTEMA DE CAPTAÇÃO"
+    },
+    {
+        "ID":57,
+        "Subcategorias":"SUBSISTEMA DE DESCIDA"
+    },
+    {
+        "ID":58,
+        "Subcategorias":"TOMADAS DE CORRENTE"
+    },
+    {
+        "ID":59,
+        "Subcategorias":"LINHA DE VIDA"
+    }
+]

@@ -21,8 +21,8 @@ def excel_para_json(arquivo_excel, diretorio_saida, colunas_para_manter):
         
         # Verifica se há configuração de colunas para a aba
         colunas = colunas_para_manter.get(nome_aba, None)
-        if colunas == None:
-            print(f"Atendimento: As colunas para a aba {nome_aba} não foram configuradas.")
+        if colunas is None:
+            print(f"Atenção: As colunas para a aba {nome_aba} não foram configuradas.")
         else:
             # Filtra apenas as colunas configuradas que existem na aba
             colunas_existentes = [col for col in colunas if col in df.columns]
@@ -33,7 +33,11 @@ def excel_para_json(arquivo_excel, diretorio_saida, colunas_para_manter):
             
             # Filtra as colunas existentes
             df = df[colunas_existentes]
-        
+            
+            # Remove linhas onde 'Ativo' é False, se a coluna existir
+            if 'Ativo' in df.columns:
+                df = df[df['Ativo'] == True].drop(columns=['Ativo'])
+            
             # Remove linhas vazias, se houver
             df = df.dropna(how="all")
             
@@ -46,7 +50,6 @@ def excel_para_json(arquivo_excel, diretorio_saida, colunas_para_manter):
                 print(f"Aba {nome_aba} salva como JSON em {caminho_json}.")
             else:
                 print(f"Aba {nome_aba} está vazia após o filtro e não será salva.")
-        
 
 # Exemplo de uso
 if __name__ == "__main__":
@@ -55,9 +58,11 @@ if __name__ == "__main__":
     
     # Configuração das colunas que você quer manter em cada aba
     colunas_para_manter = {
-    "NCs": ["ID", "Ativo", "CategoriaId", "SubcategoriaId", "NC", 
-            "Descricao", "Base Tecnica", "Base Legal", "Infracao Conforme NR28", 
-            "Recomendacoes", "Observacoes Internas", "Nota"],
+        "NCs": ["ID", "Ativo", "CategoriaId", "SubcategoriaId", "NC", 
+                "Descricao", "Base Tecnica", "Base Legal", "Infracao Conforme NR28", 
+                "Recomendacoes", "Observacoes Internas", "Nota"],
+        "Subcategorias": ["ID", "Subcategorias"],
+        "Categorias": ["ID", "Categorias"],
     }
     
     # Executa a função
