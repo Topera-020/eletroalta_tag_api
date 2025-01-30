@@ -1,238 +1,238 @@
 [
     {
-        "ID":1,
-        "Subcategorias":null
+        "id":1,
+        "name":null
     },
     {
-        "ID":2,
-        "Subcategorias":"ACESSIBILIDADE"
+        "id":2,
+        "name":"ACESSIBILIDADE"
     },
     {
-        "ID":3,
-        "Subcategorias":"ACESSIBILIDADE À SUBESTAÇÃO"
+        "id":3,
+        "name":"ACESSIBILIDADE À SUBESTAÇÃO"
     },
     {
-        "ID":4,
-        "Subcategorias":"ACESSIBILIDADE AOS COMPONENTES"
+        "id":4,
+        "name":"ACESSIBILIDADE AOS COMPONENTES"
     },
     {
-        "ID":5,
-        "Subcategorias":"AMBULATÓRIO MÉDICO"
+        "id":5,
+        "name":"AMBULATÓRIO MÉDICO"
     },
     {
-        "ID":6,
-        "Subcategorias":"ART"
+        "id":6,
+        "name":"ART"
     },
     {
-        "ID":7,
-        "Subcategorias":"ATERRAMENTO"
+        "id":7,
+        "name":"ATERRAMENTO"
     },
     {
-        "ID":8,
-        "Subcategorias":"ATERRAMENTO DO INVÓLUCRO"
+        "id":8,
+        "name":"ATERRAMENTO DO INVÓLUCRO"
     },
     {
-        "ID":9,
-        "Subcategorias":"COMBATE A INCÊNDIO"
+        "id":9,
+        "name":"COMBATE A INCÊNDIO"
     },
     {
-        "ID":10,
-        "Subcategorias":"COMPONENTES DA PORTA"
+        "id":10,
+        "name":"COMPONENTES DA PORTA"
     },
     {
-        "ID":11,
-        "Subcategorias":"CONDIÇÕES DA ESTRUTURA DA SUBESTAÇÃO"
+        "id":11,
+        "name":"CONDIÇÕES DA ESTRUTURA DA SUBESTAÇÃO"
     },
     {
-        "ID":12,
-        "Subcategorias":"CONDIÇÕES DO INVÓLUCRO"
+        "id":12,
+        "name":"CONDIÇÕES DO INVÓLUCRO"
     },
     {
-        "ID":13,
-        "Subcategorias":"CONFORMIDADE DOS COMPONENTES"
+        "id":13,
+        "name":"CONFORMIDADE DOS COMPONENTES"
     },
     {
-        "ID":14,
-        "Subcategorias":"CONTROLE DE TERCEIROS"
+        "id":14,
+        "name":"CONTROLE DE TERCEIROS"
     },
     {
-        "ID":15,
-        "Subcategorias":"DISPOSITIVO DE MONITORAMENTO"
+        "id":15,
+        "name":"DISPOSITIVO DE MONITORAMENTO"
     },
     {
-        "ID":16,
-        "Subcategorias":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+        "id":16,
+        "name":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
     },
     {
-        "ID":17,
-        "Subcategorias":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+        "id":17,
+        "name":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
     },
     {
-        "ID":18,
-        "Subcategorias":"DISPOSITIVO DIFERENCIAL-RESIDUAL (DR)"
+        "id":18,
+        "name":"DISPOSITIVO DIFERENCIAL-RESIDUAL (DR)"
     },
     {
-        "ID":19,
-        "Subcategorias":"DISPOSITIVOS DE PROTEÇÃO"
+        "id":19,
+        "name":"DISPOSITIVOS DE PROTEÇÃO"
     },
     {
-        "ID":20,
-        "Subcategorias":"DISPOSITIVOS DE PROTEÇÃO PARA OS CIRCUITOS"
+        "id":20,
+        "name":"DISPOSITIVOS DE PROTEÇÃO PARA OS CIRCUITOS"
     },
     {
-        "ID":21,
-        "Subcategorias":"DISTANCIAS MÍNIMAS ENTRE FASE E NEUTRO (TABELA 21 – NBR 14039)"
+        "id":21,
+        "name":"DISTANCIAS MÍNIMAS ENTRE FASE E NEUTRO (TABELA 21 – NBR 14039)"
     },
     {
-        "ID":22,
-        "Subcategorias":"DOCUMENTAÇÃO PROFISSIONAIS AUTORIZADOS (RH)"
+        "id":22,
+        "name":"DOCUMENTAÇÃO PROFISSIONAIS AUTORIZADOS (RH)"
     },
     {
-        "ID":23,
-        "Subcategorias":"ESTADO GERAL DOS COMPONENTES"
+        "id":23,
+        "name":"ESTADO GERAL DOS COMPONENTES"
     },
     {
-        "ID":24,
-        "Subcategorias":"EXECUÇÃO DAS CONEXÕES"
+        "id":24,
+        "name":"EXECUÇÃO DAS CONEXÕES"
     },
     {
-        "ID":25,
-        "Subcategorias":"EXECUÇÃO DAS CONEXÕES"
+        "id":25,
+        "name":"EXECUÇÃO DAS CONEXÕES"
     },
     {
-        "ID":26,
-        "Subcategorias":"GRAU DE PROTEÇÃO"
+        "id":26,
+        "name":"GRAU DE PROTEÇÃO"
     },
     {
-        "ID":27,
-        "Subcategorias":"IDENTIFICAÇÃO DE COMPONENTES"
+        "id":27,
+        "name":"IDENTIFICAÇÃO DE COMPONENTES"
     },
     {
-        "ID":28,
-        "Subcategorias":"IDENTIFICAÇÃO DE CONDUTORES"
+        "id":28,
+        "name":"IDENTIFICAÇÃO DE CONDUTORES"
     },
     {
-        "ID":29,
-        "Subcategorias":"IDENTIFICAÇÃO DE CONDUTORES (NEUTRO PROTEÇÃO)"
+        "id":29,
+        "name":"IDENTIFICAÇÃO DE CONDUTORES (NEUTRO PROTEÇÃO)"
     },
     {
-        "ID":30,
-        "Subcategorias":"IDENTIFICAÇÃO DOS COMPONENTES"
+        "id":30,
+        "name":"IDENTIFICAÇÃO DOS COMPONENTES"
     },
     {
-        "ID":31,
-        "Subcategorias":"IDENTIFICAÇÃO E SINALIZAÇÃO"
+        "id":31,
+        "name":"IDENTIFICAÇÃO E SINALIZAÇÃO"
     },
     {
-        "ID":32,
-        "Subcategorias":"IDENTIFICAÇÃO E SINALIZAÇÃO DA SUBESTAÇÃO"
+        "id":32,
+        "name":"IDENTIFICAÇÃO E SINALIZAÇÃO DA SUBESTAÇÃO"
     },
     {
-        "ID":33,
-        "Subcategorias":"ILUMINAÇÃO"
+        "id":33,
+        "name":"ILUMINAÇÃO"
     },
     {
-        "ID":34,
-        "Subcategorias":"ILUMINAÇÃO"
+        "id":34,
+        "name":"ILUMINAÇÃO"
     },
     {
-        "ID":35,
-        "Subcategorias":"LINHAS ELÉTRICAS"
+        "id":35,
+        "name":"LINHAS ELÉTRICAS"
     },
     {
-        "ID":36,
-        "Subcategorias":"LISTA DE MATERIAIS"
+        "id":36,
+        "name":"LISTA DE MATERIAIS"
     },
     {
-        "ID":37,
-        "Subcategorias":"LISTA DE POTÊNCIAS"
+        "id":37,
+        "name":"LISTA DE POTÊNCIAS"
     },
     {
-        "ID":38,
-        "Subcategorias":"MANUTENÇÃO"
+        "id":38,
+        "name":"MANUTENÇÃO"
     },
     {
-        "ID":39,
-        "Subcategorias":"MEDIDAS DE CONTROLE"
+        "id":39,
+        "name":"MEDIDAS DE CONTROLE"
     },
     {
-        "ID":40,
-        "Subcategorias":"MEMORIAL"
+        "id":40,
+        "name":"MEMORIAL"
     },
     {
-        "ID":41,
-        "Subcategorias":"OBJETOS ARMAZENADOS"
+        "id":41,
+        "name":"OBJETOS ARMAZENADOS"
     },
     {
-        "ID":42,
-        "Subcategorias":"OBJETOS ARMAZENADOS"
+        "id":42,
+        "name":"OBJETOS ARMAZENADOS"
     },
     {
-        "ID":43,
-        "Subcategorias":"PARTES ENERGIZADAS EXPOSTAS"
+        "id":43,
+        "name":"PARTES ENERGIZADAS EXPOSTAS"
     },
     {
-        "ID":44,
-        "Subcategorias":"POSSIBILIDADE DE BLOQUEIO"
+        "id":44,
+        "name":"POSSIBILIDADE DE BLOQUEIO"
     },
     {
-        "ID":45,
-        "Subcategorias":"POSSIBILIDADE DE BLOQUEIO"
+        "id":45,
+        "name":"POSSIBILIDADE DE BLOQUEIO"
     },
     {
-        "ID":46,
-        "Subcategorias":"PRESENÇA DE ESQUEMA E AVISOS (MANOBRA SOBRE CARGA, ETC.)"
+        "id":46,
+        "name":"PRESENÇA DE ESQUEMA E AVISOS (MANOBRA SOBRE CARGA, ETC.)"
     },
     {
-        "ID":47,
-        "Subcategorias":"PROTEÇÃO CONTRA CONTATO DIRETO"
+        "id":47,
+        "name":"PROTEÇÃO CONTRA CONTATO DIRETO"
     },
     {
-        "ID":48,
-        "Subcategorias":"PROTEÇÃO CONTRA CONTATO INDIRETO"
+        "id":48,
+        "name":"PROTEÇÃO CONTRA CONTATO INDIRETO"
     },
     {
-        "ID":49,
-        "Subcategorias":"PROTEÇÃO CONTRA INCÊNDIO"
+        "id":49,
+        "name":"PROTEÇÃO CONTRA INCÊNDIO"
     },
     {
-        "ID":50,
-        "Subcategorias":"PROTEÇÃO CONTRA INCÊNDIO"
+        "id":50,
+        "name":"PROTEÇÃO CONTRA INCÊNDIO"
     },
     {
-        "ID":51,
-        "Subcategorias":"SEGURANÇA"
+        "id":51,
+        "name":"SEGURANÇA"
     },
     {
-        "ID":52,
-        "Subcategorias":"SELEÇÃO DE COMPONENTES E INSTALAÇÃO EM FACE DE INFL. EXTERNAS"
+        "id":52,
+        "name":"SELEÇÃO DE COMPONENTES E INSTALAÇÃO EM FACE DE INFL. EXTERNAS"
     },
     {
-        "ID":53,
-        "Subcategorias":"SELEÇÃO E INSTALAÇÃO DOS CONDUTORES"
+        "id":53,
+        "name":"SELEÇÃO E INSTALAÇÃO DOS CONDUTORES"
     },
     {
-        "ID":54,
-        "Subcategorias":"SOENG"
+        "id":54,
+        "name":"SOENG"
     },
     {
-        "ID":55,
-        "Subcategorias":"SPDA E ATERRAMENTO"
+        "id":55,
+        "name":"SPDA E ATERRAMENTO"
     },
     {
-        "ID":56,
-        "Subcategorias":"SUBSISTEMA DE CAPTAÇÃO"
+        "id":56,
+        "name":"SUBSISTEMA DE CAPTAÇÃO"
     },
     {
-        "ID":57,
-        "Subcategorias":"SUBSISTEMA DE DESCIDA"
+        "id":57,
+        "name":"SUBSISTEMA DE DESCIDA"
     },
     {
-        "ID":58,
-        "Subcategorias":"TOMADAS DE CORRENTE"
+        "id":58,
+        "name":"TOMADAS DE CORRENTE"
     },
     {
-        "ID":59,
-        "Subcategorias":"LINHA DE VIDA"
+        "id":59,
+        "name":"LINHA DE VIDA"
     }
 ]

@@ -62,8 +62,8 @@ if __name__ == "__main__":
         "NCs": ["id", "Ativo", "categoriaId", "subcategoriaId", "titulo", 
                 "descricao", "baseTecnica", "baseLegal", "infracao", 
                 "recomendacoes", "Nota"],
-        "Subcategorias": ["ID", "Subcategorias"],
-        "Categorias": ["ID", "Categorias"],
+        "Subcategorias": ["id", "name"],
+        "Categorias": ["id", "name"],
     }
     
     # Executa a função

@@ -1,58 +1,58 @@
 [
     {
-        "ID":1,
-        "Categorias":"ALTA TENSÃO - SUBESTAÇÕES E INSTALAÇÕES"
+        "id":1,
+        "name":"ALTA TENSÃO - SUBESTAÇÕES E INSTALAÇÕES"
     },
     {
-        "ID":2,
-        "Categorias":"ANÁLISE DE PROJETOS"
+        "id":2,
+        "name":"ANÁLISE DE PROJETOS"
     },
     {
-        "ID":3,
-        "Categorias":"ANÁLISE DE RISCO"
+        "id":3,
+        "name":"ANÁLISE DE RISCO"
     },
     {
-        "ID":4,
-        "Categorias":"BAIXA TENSÃO - CONJUNTO DE MANOBRA E CONTROLE"
+        "id":4,
+        "name":"BAIXA TENSÃO - CONJUNTO DE MANOBRA E CONTROLE"
     },
     {
-        "ID":5,
-        "Categorias":"DOCUMENTAL"
+        "id":5,
+        "name":"DOCUMENTAL"
     },
     {
-        "ID":6,
-        "Categorias":"EPI, EPC E FERRAMENTAL"
+        "id":6,
+        "name":"EPI, EPC E FERRAMENTAL"
     },
     {
-        "ID":7,
-        "Categorias":"INSTALAÇÕES ELÉTRICAS"
+        "id":7,
+        "name":"INSTALAÇÕES ELÉTRICAS"
     },
     {
-        "ID":8,
-        "Categorias":"INSTALAÇÕES ELÉTRICAS - GESTÃO"
+        "id":8,
+        "name":"INSTALAÇÕES ELÉTRICAS - GESTÃO"
     },
     {
-        "ID":9,
-        "Categorias":"PROCEDIMENTO"
+        "id":9,
+        "name":"PROCEDIMENTO"
     },
     {
-        "ID":10,
-        "Categorias":"PROJETO E MANUTENÇÃO"
+        "id":10,
+        "name":"PROJETO E MANUTENÇÃO"
     },
     {
-        "ID":11,
-        "Categorias":"PRONTUÁRIO DAS INSTALAÇÕES ELÉTRICAS"
+        "id":11,
+        "name":"PRONTUÁRIO DAS INSTALAÇÕES ELÉTRICAS"
     },
     {
-        "ID":12,
-        "Categorias":"REVISAR NÃO CONFORMIDADES"
+        "id":12,
+        "name":"REVISAR NÃO CONFORMIDADES"
     },
     {
-        "ID":13,
-        "Categorias":"SPDA"
+        "id":13,
+        "name":"SPDA"
     },
     {
-        "ID":14,
-        "Categorias":"SSO - SEGURANÇA E SAÚDE OCUPACIONAL (SESMT OU SHE)"
+        "id":14,
+        "name":"SSO - SEGURANÇA E SAÚDE OCUPACIONAL (SESMT OU SHE)"
     }
 ]
