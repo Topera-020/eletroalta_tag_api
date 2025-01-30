@@ -58,9 +58,10 @@ if __name__ == "__main__":
     
     # Configuração das colunas que você quer manter em cada aba
     colunas_para_manter = {
-        "NCs": ["ID", "Ativo", "CategoriaId", "SubcategoriaId", "NC", 
-                "Descricao", "Base Tecnica", "Base Legal", "Infracao Conforme NR28", 
-                "Recomendacoes", "Observacoes Internas", "Nota"],
+
+        "NCs": ["id", "Ativo", "categoriaId", "subcategoriaId", "titulo", 
+                "descricao", "baseTecnica", "baseLegal", "infracao", 
+                "recomendacoes", "Nota"],
         "Subcategorias": ["ID", "Subcategorias"],
         "Categorias": ["ID", "Categorias"],
     }
