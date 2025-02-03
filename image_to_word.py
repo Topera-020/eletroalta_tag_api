@@ -12,18 +12,25 @@ def decode_base64_to_image(foto_base64):
     # Carregar a imagem usando Pillow
     image = Image.open(BytesIO(img_data))
     
+    rotated_image = image.rotate(-90, expand=True)
+    
+    
     # Definir uma altura fixa, mantendo a proporção
-    fixed_height = 200  # altura em pixels
-    width_percent = (fixed_height / float(image.size[1]))
-    new_width = int((float(image.size[0]) * float(width_percent)))
+    fixed_height = 300  # altura em pixels
+    width_percent = (fixed_height / float(rotated_image.size[1]))
+    new_width = int((float(rotated_image.size[0]) * float(width_percent)))
     
     # Redimensionar a imagem
-    resized_image = image.resize((new_width, fixed_height))
+    resized_image = rotated_image.resize((new_width, fixed_height), Image.Resampling.LANCZOS)
+    
     
     # Converter a imagem redimensionada de volta para BytesIO
     image_stream = BytesIO()
-    resized_image.save(image_stream, format=image.format)
-    image_stream.seek(0)  # Resetar o stream para a leitura
+    
+    if image.format == "JPEG":
+        resized_image.save(image_stream, format="JPEG", quality=95)  # Qualidade 95% para JPEG
+    else:
+        resized_image.save(image_stream, format=image.format)
     return image_stream
 
 

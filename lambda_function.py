@@ -12,10 +12,11 @@ def processar_arquivo_json(json_file_path, new_document_xml, docx_template_path)
         data = raw_json["data"]
         # Chamar a função convert_json_to_word_xml
         xml = convert_json_to_word_xml(data)
+        print("XML gerado:")
         
         replace_document_xml(docx_template_path, xml, new_document_xml)
         insert_images_to_word(json_file_path, new_document_xml)
-
+    
     except FileNotFoundError:
         print(f"Erro: O arquivo {json_file_path} não foi encontrado.")
     except json.JSONDecodeError:
@@ -29,8 +30,6 @@ def convert_json_to_word_xml(data):
     namespaces = get_word_namespaces()
     # Criar o elemento raiz <w:document> com os namespaces
     root = get_root(namespaces)
-
-
 
     print(f"Não conformidades: {len(data)}")
     
@@ -65,21 +64,21 @@ def convert_json_to_word_xml(data):
                 if tag is None:
                     continue
                 # Condição para não repetir Título1 ou Título2
-                if tag == "Ttulo1" and text == prev_titulo1:
+                if tag == "Ttulo1" and value == prev_titulo1:
                     prev_titulo2_aux = True
                     continue
                     
-                if tag == "Ttulo2" and text == prev_titulo2 and prev_titulo2_aux:
+                if tag == "Ttulo2" and value == prev_titulo2 and prev_titulo2_aux:
                     continue
 
                 # Atualizar os valores anteriores
                 if tag == "Ttulo1":
-                    prev_titulo1 = text
+                    prev_titulo1 = value
                 if tag == "Ttulo2":
-                    prev_titulo2 = text
-                    text = value
-                if text:
-                    insertParagraf(text, namespaces, body, tag)
+                    prev_titulo2 = value
+                    value = value
+                if value:
+                    insertParagraf(value, namespaces, body, tag)
         
         # Adicionar quebra de página após cada item
         add_page_break(body, namespaces)
@@ -103,6 +102,7 @@ def translateKey(input_string):
         "infracao": "07InfraoConforme",
         "recomendacao": "08Recomendaes",
         "nota": "09Nota",
+        "id":""
         #"Observação": "Observação",
     }
     if input_string not in translation_dict:
