@@ -49,7 +49,7 @@ def convert_json_to_word_xml(data):
     for item in data:
         prev_titulo2_aux = False
         for key, value in item.items():
-            tag = translateKey(key)
+            tag = translateJsonKey(key)
             
             if tag == '':
                continue 
@@ -87,7 +87,7 @@ def convert_json_to_word_xml(data):
     return document_xml
 
 
-def translateKey(input_string):
+def translateJsonKey(input_string):
     translation_dict = {
         #"ID": "ID",
         "categoria": "Ttulo1",

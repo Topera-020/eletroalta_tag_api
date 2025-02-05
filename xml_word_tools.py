@@ -76,9 +76,6 @@ def get_root(namespaces):
     })
 
 
-
-
-
 def add_page_break(body, namespaces):
     p = ET.SubElement(body, f"{{{namespaces['w']}}}p")
     r = ET.SubElement(p, f"{{{namespaces['w']}}}r")
