@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name":"ALTA TENSÃO - SUBESTAÇÕES E INSTALAÇÕES"
+    },
+    {
+        "id":2,
+        "name":"ANÁLISE DE PROJETOS"
+    },
+    {
+        "id":3,
+        "name":"ANÁLISE DE RISCO"
+    },
+    {
+        "id":4,
+        "name":"BAIXA TENSÃO - CONJUNTO DE MANOBRA E CONTROLE"
+    },
+    {
+        "id":5,
+        "name":"DOCUMENTAL"
+    },
+    {
+        "id":6,
+        "name":"EPI, EPC E FERRAMENTAL"
+    },
+    {
+        "id":7,
+        "name":"INSTALAÇÕES ELÉTRICAS"
+    },
+    {
+        "id":8,
+        "name":"INSTALAÇÕES ELÉTRICAS - GESTÃO"
+    },
+    {
+        "id":9,
+        "name":"PROCEDIMENTO"
+    },
+    {
+        "id":10,
+        "name":"PROJETO E MANUTENÇÃO"
+    },
+    {
+        "id":11,
+        "name":"PRONTUÁRIO DAS INSTALAÇÕES ELÉTRICAS"
+    },
+    {
+        "id":12,
+        "name":"REVISAR NÃO CONFORMIDADES"
+    },
+    {
+        "id":13,
+        "name":"SPDA"
+    },
+    {
+        "id":14,
+        "name":"SSO - SEGURANÇA E SAÚDE OCUPACIONAL (SESMT OU SHE)"
+    }
+]

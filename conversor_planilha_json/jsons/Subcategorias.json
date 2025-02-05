@@ -1,0 +1,238 @@
+[
+    {
+        "id":1,
+        "name":null
+    },
+    {
+        "id":2,
+        "name":"ACESSIBILIDADE"
+    },
+    {
+        "id":3,
+        "name":"ACESSIBILIDADE À SUBESTAÇÃO"
+    },
+    {
+        "id":4,
+        "name":"ACESSIBILIDADE AOS COMPONENTES"
+    },
+    {
+        "id":5,
+        "name":"AMBULATÓRIO MÉDICO"
+    },
+    {
+        "id":6,
+        "name":"ART"
+    },
+    {
+        "id":7,
+        "name":"ATERRAMENTO"
+    },
+    {
+        "id":8,
+        "name":"ATERRAMENTO DO INVÓLUCRO"
+    },
+    {
+        "id":9,
+        "name":"COMBATE A INCÊNDIO"
+    },
+    {
+        "id":10,
+        "name":"COMPONENTES DA PORTA"
+    },
+    {
+        "id":11,
+        "name":"CONDIÇÕES DA ESTRUTURA DA SUBESTAÇÃO"
+    },
+    {
+        "id":12,
+        "name":"CONDIÇÕES DO INVÓLUCRO"
+    },
+    {
+        "id":13,
+        "name":"CONFORMIDADE DOS COMPONENTES"
+    },
+    {
+        "id":14,
+        "name":"CONTROLE DE TERCEIROS"
+    },
+    {
+        "id":15,
+        "name":"DISPOSITIVO DE MONITORAMENTO"
+    },
+    {
+        "id":16,
+        "name":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+    },
+    {
+        "id":17,
+        "name":"DISPOSITIVO DE SECCIONAMENTO E COMANDO"
+    },
+    {
+        "id":18,
+        "name":"DISPOSITIVO DIFERENCIAL-RESIDUAL (DR)"
+    },
+    {
+        "id":19,
+        "name":"DISPOSITIVOS DE PROTEÇÃO"
+    },
+    {
+        "id":20,
+        "name":"DISPOSITIVOS DE PROTEÇÃO PARA OS CIRCUITOS"
+    },
+    {
+        "id":21,
+        "name":"DISTANCIAS MÍNIMAS ENTRE FASE E NEUTRO (TABELA 21 – NBR 14039)"
+    },
+    {
+        "id":22,
+        "name":"DOCUMENTAÇÃO PROFISSIONAIS AUTORIZADOS (RH)"
+    },
+    {
+        "id":23,
+        "name":"ESTADO GERAL DOS COMPONENTES"
+    },
+    {
+        "id":24,
+        "name":"EXECUÇÃO DAS CONEXÕES"
+    },
+    {
+        "id":25,
+        "name":"EXECUÇÃO DAS CONEXÕES"
+    },
+    {
+        "id":26,
+        "name":"GRAU DE PROTEÇÃO"
+    },
+    {
+        "id":27,
+        "name":"IDENTIFICAÇÃO DE COMPONENTES"
+    },
+    {
+        "id":28,
+        "name":"IDENTIFICAÇÃO DE CONDUTORES"
+    },
+    {
+        "id":29,
+        "name":"IDENTIFICAÇÃO DE CONDUTORES (NEUTRO PROTEÇÃO)"
+    },
+    {
+        "id":30,
+        "name":"IDENTIFICAÇÃO DOS COMPONENTES"
+    },
+    {
+        "id":31,
+        "name":"IDENTIFICAÇÃO E SINALIZAÇÃO"
+    },
+    {
+        "id":32,
+        "name":"IDENTIFICAÇÃO E SINALIZAÇÃO DA SUBESTAÇÃO"
+    },
+    {
+        "id":33,
+        "name":"ILUMINAÇÃO"
+    },
+    {
+        "id":34,
+        "name":"ILUMINAÇÃO"
+    },
+    {
+        "id":35,
+        "name":"LINHAS ELÉTRICAS"
+    },
+    {
+        "id":36,
+        "name":"LISTA DE MATERIAIS"
+    },
+    {
+        "id":37,
+        "name":"LISTA DE POTÊNCIAS"
+    },
+    {
+        "id":38,
+        "name":"MANUTENÇÃO"
+    },
+    {
+        "id":39,
+        "name":"MEDIDAS DE CONTROLE"
+    },
+    {
+        "id":40,
+        "name":"MEMORIAL"
+    },
+    {
+        "id":41,
+        "name":"OBJETOS ARMAZENADOS"
+    },
+    {
+        "id":42,
+        "name":"OBJETOS ARMAZENADOS"
+    },
+    {
+        "id":43,
+        "name":"PARTES ENERGIZADAS EXPOSTAS"
+    },
+    {
+        "id":44,
+        "name":"POSSIBILIDADE DE BLOQUEIO"
+    },
+    {
+        "id":45,
+        "name":"POSSIBILIDADE DE BLOQUEIO"
+    },
+    {
+        "id":46,
+        "name":"PRESENÇA DE ESQUEMA E AVISOS (MANOBRA SOBRE CARGA, ETC.)"
+    },
+    {
+        "id":47,
+        "name":"PROTEÇÃO CONTRA CONTATO DIRETO"
+    },
+    {
+        "id":48,
+        "name":"PROTEÇÃO CONTRA CONTATO INDIRETO"
+    },
+    {
+        "id":49,
+        "name":"PROTEÇÃO CONTRA INCÊNDIO"
+    },
+    {
+        "id":50,
+        "name":"PROTEÇÃO CONTRA INCÊNDIO"
+    },
+    {
+        "id":51,
+        "name":"SEGURANÇA"
+    },
+    {
+        "id":52,
+        "name":"SELEÇÃO DE COMPONENTES E INSTALAÇÃO EM FACE DE INFL. EXTERNAS"
+    },
+    {
+        "id":53,
+        "name":"SELEÇÃO E INSTALAÇÃO DOS CONDUTORES"
+    },
+    {
+        "id":54,
+        "name":"SOENG"
+    },
+    {
+        "id":55,
+        "name":"SPDA E ATERRAMENTO"
+    },
+    {
+        "id":56,
+        "name":"SUBSISTEMA DE CAPTAÇÃO"
+    },
+    {
+        "id":57,
+        "name":"SUBSISTEMA DE DESCIDA"
+    },
+    {
+        "id":58,
+        "name":"TOMADAS DE CORRENTE"
+    },
+    {
+        "id":59,
+        "name":"LINHA DE VIDA"
+    }
+]
