@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 import json
 import os
 
@@ -30,6 +30,11 @@ output_docx = 'Resultado.docx'
 output_docx_path = os.path.join(OUTPUT_FOLDER, output_docx)
 
 
+@app.route('/')
+def index():
+    return send_from_directory(os.path.join(base_path, 'static'), 'index.html')
+
+
 @app.route("/conect", methods=["GET"])
 def conect():
     print("conect")
@@ -57,5 +62,5 @@ def upload_json():
 
 if __name__ == "__main__":
      # Exemplo de uso
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000)
     

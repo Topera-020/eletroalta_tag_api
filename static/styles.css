@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+   
+
+    background-image: url('Backgorund.png'); /* Caminho para sua imagem */
+    background-size: contain; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que o fundo permaneça fixo ao rolar a página */
+    background-position: right; /* Centraliza a imagem */
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+
+button {
+    margin: 20px 0; /* Aumenta o espaço vertical */
+    padding: 12px 20px; /* Torna os botões maiores */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Efeito ao passar o mouse */
+}
+
+.download-button {
+    margin-bottom: 20px; /* Espaço extra após o botão de download */
+}
+
+
+
+#response, #merge-response {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}

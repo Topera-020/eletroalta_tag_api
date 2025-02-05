@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar documento de RTI a partir de Tabela</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Gerar documento de RTI a partir de Tabela</h1>
+    <form id="upload-form-rti" enctype="multipart/form-data">
+        <div>
+            <button id="download-rti" class="download-button">Baixar Tabela RTI Padrão</button>
+        </div>
+        <label for="file">ATENÇÃO! Siga o modelo de tabela acima se não poderá ter erro no sistema.</label>
+        <div>
+            <label for="file">Selecione sua tabela:</label>
+            <input type="file" id="file-rti" name="excel_file" accept=".xlsx, .xls">
+        </div>
+        <div>
+            <button type="submit" id="generate-rti">Gerar RTI</button>
+        </div>
+        <footer>
+            <p>ATENÇÃO! Verifique se o .exe está aberto para utilizar o site.</p>
+        </footer>
+    </form>
+    <div id="response"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
