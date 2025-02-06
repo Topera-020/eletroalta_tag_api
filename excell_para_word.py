@@ -25,7 +25,7 @@ def translate_string(input_string):
     # Os estilos que não forem encontrados serão ignorados
     # Deixei comentado as colunas que não serão utilizadas
     translation_dict = {
-        #"ID": "ID",
+        "ID": None,
         "Categoria": "Ttulo1",
         "Subcategoria": "Ttulo2",
         "NC": "01NC",

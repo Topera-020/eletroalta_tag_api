@@ -99,10 +99,14 @@ def upload_file():
         print(f"Erro durante o processamento do arquivo: {e}")
         return f"Erro ao processar o arquivo: {e}", 500
 
+
+
 @app.route('/download/<filename>', methods=['GET'])
 def download_file(filename):
     print(f"Iniciando download do arquivo {filename}")
     return send_from_directory(OUTPUT_FOLDER, filename)
+
+
 
 
 if __name__ == "__main__":
