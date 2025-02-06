@@ -1,6 +1,6 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
-from xml_word_tools import add_page_break, get_root, get_word_namespaces, insertParagraf
+from xml_word_tools import add_page_break, get_root, get_word_namespaces, insertParagraf, replace_document_xml
 
 
 def convert_excel_to_word_xml(excel_file_path, docx_template_path, output_docx_path):
@@ -11,9 +11,10 @@ def convert_excel_to_word_xml(excel_file_path, docx_template_path, output_docx_p
     df = df.sort_values(by=['Categoria', 'Subcategoria'])
     
     root = create_word_body_from_dataframe(df)
-
-    document_xml = ET.tostring(root, encoding='utf-8', method='xml').decode('utf-8')
-    return document_xml
+    
+    new_document_xml = ET.tostring(root, encoding='utf-8', method='xml').decode('utf-8')
+    
+    replace_document_xml(docx_template_path, new_document_xml, output_docx_path)
 
 
 def translate_string(input_string):
@@ -44,7 +45,7 @@ def translate_string(input_string):
     return translation_dict.get(input_string)
 
 
-def create_word_body_from_dataframe(df, namespaces):
+def create_word_body_from_dataframe(df):
     namespaces = get_word_namespaces()
     
     # Criar o elemento raiz <w:document> com os namespaces
