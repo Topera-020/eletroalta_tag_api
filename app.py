@@ -106,13 +106,12 @@ def download_file(filename):
     print(f"Iniciando download do arquivo {filename}")
     return send_from_directory(OUTPUT_FOLDER, filename)
 
-
-
+port = int(os.getenv("PORT", 10000))
 if __name__ != "__main__":
     gunicorn_app = app
     
     
-     # Exemplo de uso
+    # Exemplo de uso
     #app.run(host="0.0.0.0", port=5000)
     
     
