@@ -1,6 +1,6 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
-from xml_word_tools import add_page_break, add_paragraph, get_root, get_word_namespaces, insertParagraf
+from xml_word_tools import add_page_break, get_root, get_word_namespaces, insertParagraf
 
 
 def convert_excel_to_word_xml(excel_file_path, docx_template_path, output_docx_path):
